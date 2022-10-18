@@ -17,7 +17,7 @@ Console.Write("WELCOME TO HANGMAN!");
     {
         Console.Write("Please give a letter: ");
         var letterRead = player1.SayLetter();
-        var letterExists = newWord.LetterExistsInWord(letterRead);
+        var letterExists = newWord.LetterExists(letterRead);
 
         if (!letterExists)
         {

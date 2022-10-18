@@ -14,7 +14,8 @@
     public char SayLetter()
     {
         var letterRead = Console.ReadKey().KeyChar;
-        LettersSaid.Add(letterRead);
+        if (!LettersSaid.Contains(letterRead))
+            LettersSaid.Add(letterRead);
         return letterRead;
     }
 }

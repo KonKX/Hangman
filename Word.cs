@@ -19,12 +19,12 @@ public class Word
             this.CurrentWord[i] = '_';
         }
     }
-    public bool LetterExistsInWord(char letter)
+    public bool LetterExists(char letter)
     {
         var exists = false;
         for (var i = 1; i < this.FullWord.Length; i++)
         {
-            if (this.FullWord[i] != letter || this.CurrentWord[i] == letter) continue;
+            if (this.FullWord[i] != letter) continue;
             this.CurrentWord[i] = letter;
             exists = true;
         }
