@@ -13,7 +13,12 @@
 
     public char SayLetter()
     {
-        var letterRead = Console.ReadKey().KeyChar;
+        char letterRead;
+        do
+        {
+            letterRead = Console.ReadKey().KeyChar;
+        } while (letterRead.Equals(""));
+
         if (!LettersSaid.Contains(letterRead))
             LettersSaid.Add(letterRead);
         return letterRead;
