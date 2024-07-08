@@ -53,9 +53,9 @@ public static class GlobalData
      |
 =========",
         @"
- +---+
- |   |
- O   |
+ +---+ R
+ |   | I
+ O   | P
 /|\  |
 / \  |
      |
