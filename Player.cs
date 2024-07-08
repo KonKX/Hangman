@@ -17,7 +17,7 @@
         do
         {
             letterRead = Console.ReadKey().KeyChar;
-        } while (letterRead.Equals(""));
+        } while (!Char.IsLetter(letterRead));
 
         if (!LettersSaid.Contains(letterRead))
             LettersSaid.Add(letterRead);
