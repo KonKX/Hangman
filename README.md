@@ -1,11 +1,13 @@
-Hangman!
+```
+The (in)famous Hangman game.
 
-+ ---+
-|    |
-     |
-     |
-     |
++---+  R
+ |   | I
+ O   | P
+/|\  |
+/ \  |
      |
 =========
 
-Console application. EN/GR dictionaries available.
+EN/GR dictionaries available.
+```
