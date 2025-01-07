@@ -1,5 +1,5 @@
 ```
-The (in)famous Hangman game.
+Simple .NET Console application for the (in)famous Hangman game.
 
 +---+  R
  |   | I
